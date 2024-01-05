@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@500;600&display=swap');
+
+*{
+    margin: 0;
+}
+
+.main{
+    height: 100vh;
+    font-family: "Inknut Antiqua";
+}
+.main-img{
+    background-image: url("/assets/background.png");
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    width: 45%;
+    background-color: wheat;
+    z-index: 1;
+    margin: 0 auto;
+    position: relative;
+    height: 650px;
+    top: -10rem;
+}
+
+.container > h3{
+    margin: 0.25em;
+}
+
+.form-signup
+{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-signup > input{
+    width: 90%;
+    font-size: 1.5rem;
+    padding: 0.5em;
+}
+
+.form-signup  > button{
+    margin-top: 0.5em;
+    width: 97%;
+    font-size: 1.25rem;
+    padding: 0.8em;
+    background-color: #0B0A0A;
+    color: #FFFAFA;
+}
+
+.sub-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sub-input > input{
+    width: 60%;
+    font-size: 1.5rem;
+    padding: 0.5em;
+}
+
+.sub-input > button{
+    width: 30%;
+    font-size: 1.1rem;
+    padding: 0.27em;
+    background-color: #0B0A0A;
+    color: #FFFAFA;
+}
